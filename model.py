@@ -1,6 +1,6 @@
 import tensorflow as tf
 import tensorflow.contrib.distributions as tfd
-from tensorflow.python.compiler.tensorrt import rnn_convert as rnn
+from tensorflow.contrib import rnn
 
 
 def make_encoder(segment, batch_size, num_latents, encoder_units):
