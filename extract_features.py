@@ -8,7 +8,7 @@ import argparse
 
 from scipy import signal
 
-from utils.audio_utils.py import preemphasis
+from utils.audio_utils import preemphasis
 
 EPS = 1e-10
 
